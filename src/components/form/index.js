@@ -21,7 +21,7 @@ export default function Form(){
                 imcCalculator()
                 setHeitght(null)
                 setWeght(null)
-                setMassageImc("Seu imc é igual: ")
+                setMassageImc(" imc é igual: ")
                 setTextButton("Calcular Novamente")
                 return
             }

@@ -5,6 +5,7 @@ import Form from "../form/";
 export default function Main(){
     return(
         <View>
+      
       <Form/>
         </View>
     );
