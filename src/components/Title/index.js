@@ -6,6 +6,7 @@ export default function Title(){
         <View>
             <Text>ONBITHEALTH...</Text>
             <Text>04/03/2024...</Text>
+            <Text>Aula 02 parte 3 </Text>
         </View>
     );
 }
