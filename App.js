@@ -1,13 +1,14 @@
 
 import { StyleSheet, Text, View } from 'react-native';
 import Title from './src/components/Title/index';
-import Main from './src/components/Main/index';
+import Form from './src/components/form';
+
 export default function App() {
   return (
     <View style={styles.container}>
       <Text>Danilo</Text>
       <Title/>
-      <Main/>
+      <Form/>
     
       </View>
   );
@@ -16,9 +17,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-   
-    justifyContent: 'center',
+    backgroundColor: '#e0e5e5',
+    paddingTop: 80,
+ 
   },
 });
