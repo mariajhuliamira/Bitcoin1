@@ -6,7 +6,7 @@ import Form from './src/components/form';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Danilo</Text>
+   
       <Title/>
       <Form/>
     
