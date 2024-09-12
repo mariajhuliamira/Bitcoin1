@@ -49,6 +49,22 @@ const styles = StyleSheet.create({
         fontSize:20,
         color:"#ffffff",
     },
+
+    information:{
+        fontSize:48,
+        color:"#FF0043",
+        fontWeight:"bold",
+
+    },
+
+    erroMessage:{
+        fontSize: 12,
+        color:"red",
+        fontWeight:"bold",
+        paddingLeft:20,
+
+        },
+
 });
 
 export default styles
